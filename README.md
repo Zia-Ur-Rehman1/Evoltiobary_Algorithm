@@ -9,23 +9,24 @@ Artificial Intelligence
 
 **MEMBERS: NOOR NABI AND  SHAHRUKH KHAN**
 
-**Abstract** 
+## **Abstract** 
 
 In this application, we are trying to implement template-matching technique with a scientific viewpoint. Instead of a programming approach, we are using the phenomena of natural selection and designing an algorithm according to it. Scientific approach of Darwin is implemented by initializing a population and improving each new generation we move towards the best fit. 
 
 Contents 
 
-[**Abstract** ........................................................................................................................................................ 1 ](#_page1_x69.00_y72.00)[Introduction .................................................................................................................................................. 1 ](#_page1_x69.00_y597.00)[Natural Phenomenon .................................................................................................................................... 2 ](#_page2_x69.00_y153.00)[**Charles Darwin’s Theory** ........................................................................................................................... 3 ](#_page3_x69.00_y230.00)[Evolution ....................................................................................................................................................... 3 ](#_page3_x69.00_y539.00)[**Model** ............................................................................................................................................................ 4 ](#_page4_x69.00_y424.00)[Application .................................................................................................................................................... 5 ](#_page5_x69.00_y361.00)[Import Image ............................................................................................................................................ 5 ](#_page5_x69.00_y455.00)[Slicing ........................................................................................................................................................ 5 ](#_page5_x69.00_y542.00)[Initialization............................................................................................................................................... 6 ](#_page6_x69.00_y72.00)[Sorting ....................................................................................................................................................... 6 ](#_page6_x69.00_y288.00)[Crossover and Mutation ........................................................................................................................... 6 ](#_page6_x69.00_y375.00)[Termination ............................................................................................................................................... 6 ](#_page6_x69.00_y560.00)[Conclusion ..................................................................................................................................................... 9 ](#_page9_x69.00_y72.00)[References .................................................................................................................................................... 9 ](#_page9_x69.00_y302.00)
+[........................................................................................................................................................ 1 ](#_page1_x69.00_y72.00)[Introduction .................................................................................................................................................. 1 ](#_page1_x69.00_y597.00)[Natural Phenomenon .................................................................................................................................... 2 ](#_page2_x69.00_y153.00)[**Charles Darwin’s Theory** ........................................................................................................................... 3 ](#_page3_x69.00_y230.00)[Evolution ....................................................................................................................................................... 3 ](#_page3_x69.00_y539.00)[**Model** ............................................................................................................................................................ 4 ](#_page4_x69.00_y424.00)[Application .................................................................................................................................................... 5 ](#_page5_x69.00_y361.00)[Import Image ............................................................................................................................................ 5 ](#_page5_x69.00_y455.00)[Slicing ........................................................................................................................................................ 5 ](#_page5_x69.00_y542.00)[Initialization
+............................................................................................................................................... 6 ](#_page6_x69.00_y72.00)[Sorting ....................................................................................................................................................... 6 ](#_page6_x69.00_y288.00)[Crossover and Mutation ........................................................................................................................... 6 ](#_page6_x69.00_y375.00)[Termination ............................................................................................................................................... 6 ](#_page6_x69.00_y560.00)[Conclusion ..................................................................................................................................................... 9 ](#_page9_x69.00_y72.00)[References .................................................................................................................................................... 9 ](#_page9_x69.00_y302.00)
 
-Introduction 
+## Introduction 
 
 This report is mainly consist of a method to find a part of image in another image by using the evolutionary method derived from Darwin’s Theory. We have to implement some logical scientific thinking approach to detect the resemblance between two images. In order to do that we have to focus on the evolutionary method of Darwin and design and algorithm based on it. There are many factors involve in evolution and some of them on which we have designed our algorithm are discussed 
 
-Natural Phenomenon 
+## Natural Phenomenon 
 
-Darwin theory is based on natural phenomena. There are two key points in it. First is “everything in the world has ![](https://github.com/Zia-Ur-Rehman1/Evoltiobary_Algorithm/blob/main/images/003.png)some resemblance with each 
+Darwin theory is based on natural phenomena. There are two key points in it. First is “everything in the world has some resemblance with each
 
-other” and second one is everything is being modified with the time, generation and environment. Everything is trying his best to survive, evolve and reproduce and this leads them ![](https://github.com/Zia-Ur-Rehman1/Evoltiobary_Algorithm/blob/main/images/004.png)![](https://github.com/Zia-Ur-Rehman1/Evoltiobary_Algorithm/blob/main/images/005.png)![](https://github.com/Zia-Ur-Rehman1/Evoltiobary_Algorithm/blob/main/images/006.png)![](https://github.com/Zia-Ur-Rehman1/Evoltiobary_Algorithm/blob/main/images/007.png)to evolution. 
+other” and second one is everything is being modified with the time, generation and environment. Everything is trying his best to survive, evolve and reproduce and this leads them to evolution. 
 
 The nature accepts only those individuals, which are best according to the given environment, and the modification is leading to the survival of best specie to come into existence according to the environment and this is the reason that many other species come to extinct. Natural selection can change species; can divide into further modified and evaluated species and gradually causing a population to change color or size over the course of several generations this is very slow and continuous process, which each new generation the modification is minimum that even sometime we cannot judge. This is called "**microevolution**. “Given enough time and enough accumulated changes, natural selection can create entirely new species, known as "macroevolution." For example, It can turn dinosaurs into birds, amphibious mammals into whales and the ancestors of apes into humans. Wolf are considered the ancestors of dogs and it goes for many more species. 
 
@@ -33,15 +34,15 @@ Darwin also described a form of natural selection that depends on an organism's 
 
 ![](https://github.com/Zia-Ur-Rehman1/Evoltiobary_Algorithm/blob/main/images/008.png)
 
-**Charles Darwin’s Theory** 
+## **Charles Darwin’s Theory** 
 
 Actually theory of Darwin was major and pointing step towards relation and resemblance of species of some specific environment. We know, creation on earth is of different kind but may be these kinds are different physically but their initial growth is same. This theory have played vital rule to understand this phenomena of natural selection and then further guided towards evaluated species and organisms, regarding their environment for survival. 
 
 Charles Darwin is trying to explain the diversity of world, as he found each specie has many different kinds like monkeys are more than 200 types and bats of 1000 types and each specie have something related to other and at the same time something different from others. He wants to see how this is happening in the world. Therefore, he travelled, observed, and made some hypothesis and after many years, he was able to prove how nature is changing.  
 
 Some of the points are discussed here:  
-
-Evolution 
+ 
+### Evolution 
 
 Each new generation produce more offspring than the previous one but not all of them are able to survive. Only those offspring having best inheritance behavior are able to survive and move towards the next generation and by this behavior each new upcoming generation is better than then their ancestors and these modification leads to the best survival of each generation. 
 
@@ -55,9 +56,9 @@ Those individuals with heritable traits better suited to the environment will su
 - In **allopatric speciation**, groups from an ancestral population evolve into separate species due to a period of geographical separation. 
 - In **sympatric speciation**, groups from the same ancestral population evolve into separate species without any geographical separation. 
 
-[2] 
 
-**Model** 
+
+## **Model** 
 
 In this model, we find the resemblance of every individual with other individuals and observe, how much they are related to each other. Firstly, we have to initialize some initial population and with the method of natural selection, we move towards the best fit. The initial population moves toward the survival of fittest by “**crossover and mutation**”.  
 
@@ -67,21 +68,21 @@ resemble to given image or unit cell.
 
 ![](https://github.com/Zia-Ur-Rehman1/Evoltiobary_Algorithm/blob/main/images/009.jpeg)
 
-Application 
+##  Application 
 
 This application give the detailed information about the scientific logic we extracted and implemented from Darwin’s Theory. This application is based on template matching technique with a scientific approach. 
 
-Import Image 
+### Import Image 
 
 First step was to import the image and convert the image into 2D matrixes. We used python library matplot to import and convert the image in 2D matrix format in which each point indicate a pixel on each x and y coordinates. 
 
-Slicing 
+### Slicing 
 
 Now the next step was to divide the large image into equal parts of smaller image by taking random points. In order to do that we generate some random x and y coordinates and slice the images having width and length equal to smaller image. The edge point in generating the random number was to minus the width and length of smaller images so that the coordinates don’t get outside of large image. 
 
 Large image (512, 1024) small image (35, 29) minus coordinates of small image from large image and generate random numbers. 
 
-Initialization 
+### Initialization 
 
 Now the count of random numbers will be the initial population. Initially we set the count to 50 and 100 and sometime even 10000 after reading some article we get to the conclusion that initial population should be max 40 or 50.But at 50 initial population it does not give result of 0.9 or 0.8 correlation even after long time 
 
@@ -89,19 +90,19 @@ After initializing the population, we checked the correlation between random pop
 
 to find correlation. It greatly increase the efficiency of computation 30 to 50 times  
 
-Sorting 
+### Sorting 
 
 After finding the correlation, we sort the fitness value in reverse order so that we get the best fitness at top. After that, we convert the top two values into binary number and concatenate them. 
 
-Crossover and Mutation 
+### Crossover and Mutation 
 
 Now the most important step is crossover and mutation. We tried to implement different logics here. Initially we were making crossover and mutation of all the parents and discarding the previous one and initializing the new generation. In mutation we mute each x and y coordinate. Another changing was to mutate least significant bit and most significant bit but both of these haven’t given the desired result. After reading an article we get to know that crossover percentage is 95 and mutation percentage is 0.5 so we moved towards this method but still we haven’t get the desired result mean the increasing curve in graphical representation. 
 
-Termination 
+### Termination 
 
 This procedure repeated until we reach some stopping criteria as if we get 0.9 correlation or any other threshold that we have fixed to stop.  
 
-Testing’s 
+### Testing’s 
 
 We have tried to implement Darwin’s logic in our algorithm to find the best result but were not able to do that completely. Our task was that each new generation should be better than the previous one and move towards the actual points of small image. The graphical representation that was expected was a straight up curve. However, we concluded that the method of randomization in crossover and mutation is leading us to different direction. Another assumption is that there are also many other points which are closely related to our small image so the graph will not be a straight line. Some of the result given below will prove that.  We get the result at 0.6 correlation but not at 0.79 so according to me graph will not have a straight up curve. We even get 0.9 result if we increase the population to 10000 initial points. After some more experiments I get to conclusion that increasing the population is giving faster result and accurate results at 1000 population but at population of 50 I don’t get any result even after a long time.  
 
@@ -111,7 +112,7 @@ We have tried to implement Darwin’s logic in our algorithm to find the best re
 
 ![](https://github.com/Zia-Ur-Rehman1/Evoltiobary_Algorithm/blob/main/images/012.png)
 
-`   `After certain experiments we get to know that correlation was being repeated due to cross over and mutation. It was occurring due to same values of x and y so we check the values if they are same we change them randomly. It greatly help us to get the result 
+After certain experiments we get to know that correlation was being repeated due to cross over and mutation. It was occurring due to same values of x and y so we check the values if they are same we change them randomly. It greatly help us to get the result 
 
 ![](https://github.com/Zia-Ur-Rehman1/Evoltiobary_Algorithm/blob/main/images/013.jpeg)
 
